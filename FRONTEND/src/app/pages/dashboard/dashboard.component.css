@@ -1,0 +1,29 @@
+/* Structure */
+/* Define styles for table */
+.hover-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style table headers */
+.hover-table th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style table rows */
+.hover-table tr {
+  transition: background-color 0.3s ease;
+}
+
+/* Define hover effect for table rows */
+.hover-table tbody tr:hover {
+  background-color: #e5e5e5;
+}
+
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }

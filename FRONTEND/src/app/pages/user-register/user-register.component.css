@@ -1,0 +1,52 @@
+.content {
+    padding-top: 10px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  
+  .action {
+    padding: 0px 25px 20px;
+  
+    button {
+      flex: 1;
+    }
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .row {
+  
+    .names {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      mat-form-field {
+        width: 49%;
+      }
+    }
+  }
+
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
